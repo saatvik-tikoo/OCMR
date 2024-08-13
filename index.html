@@ -3,6 +3,22 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '{your-pixel-id-goes-here}');
+        fbq('track', 'MicroSiteVisit');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+    </noscript>
 </head>
 <body>
     <div class="top-creative">
@@ -11,15 +27,15 @@
         </video>
     </div>
     <div class="buy-options">
-        <a class="button buy-option-1" href="https://www.target.com" target="_blank">
+        <a class="button buy-option-1" href="https://tinyurl.com/5ycfk2xe" target="_blank">
             <img class="icon" src="https://assets.mikmak.workers.dev/2U8lImLQnWBEiFNOBEow_target.png"/>
             <span class="name retailer-name-1">Check out on Target</span>
         </a>
-        <a class="button buy-option-2" href="https://www.walmart.com" target="_blank">
+        <a class="button buy-option-2" href="https://tinyurl.com/4fzzy73d" target="_blank">
             <img class="icon" src="https://assets.mikmak.workers.dev/A3WX28npTbaQCTdXTNIN_walmart-multicart-logo.png" />
             <span class="name retailer-name-2">Check out on Walmart</span>
         </a>
-        <a class="button buy-option-3" href="https://www.amazon.com" target="_blank">
+        <a class="button buy-option-3" href="https://tinyurl.com/bdhv4v7s" target="_blank">
             <img class="icon" src="https://assets.mikmak.workers.dev/5oOnbyvYTAavvSgVNbL7_amazon-logo-vector-png-amazon-logo-vector-512.png" />
             <span class="name retailer-name-3">Check out on Amazon</span>
         </a>
